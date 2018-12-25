@@ -5,8 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.qiuqiu</groupId>
-    <artifactId>qiu-parent</artifactId>
+    <artifactId>qiu_parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>qiu_common</module>
+        <module>qiu_user</module>
+    </modules>
+
 
     <name>qiuqiu_parent</name>
 
