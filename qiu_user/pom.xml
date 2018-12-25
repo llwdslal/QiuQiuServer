@@ -10,6 +10,26 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>qiu_user</artifactId>
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.0.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qiuqiu</groupId>
+            <artifactId>qiu_common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+
+        </dependency>
+    </dependencies>
 
 
 </project>

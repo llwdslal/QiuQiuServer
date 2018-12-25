@@ -1,0 +1,13 @@
+server:
+  port: 1000
+spring:
+  application:
+    name: qiu-user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.105.204.71/db_user?characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
